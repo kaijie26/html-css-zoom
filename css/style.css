@@ -5,3 +5,30 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+.flex-container{
+    display: flex;
+}
+
+.white{
+    color: white;
+}
+
+
+/* Header */
+header{
+    background-color: black;
+    height: 60px;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+header button{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
